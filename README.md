@@ -6,8 +6,10 @@ This study hinges on the analogy between the historical number of citations thro
 
 In it I define death and rebirth, and produce basic demographic plots for arbitrary attributes of a citation. This study looks at web of science for sociology in particular.
 
-To reproduce these results, or modify them for your own purposes, open Google's [Colab](colab.research.google.com) environment and paste the following:
+To reproduce these results, or modify them for your own purposes, 
+1. Open Google's [Colab](colab.research.google.com) environment
 
+2. In a cell of a Colab notebook, run the following code:
 ```python
 !pip install knowknow-amcgail
 !python -m knowknow init
