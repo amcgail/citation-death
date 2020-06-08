@@ -8,6 +8,8 @@ In it I define death and rebirth, and produce basic demographic plots for arbitr
 
 To reproduce these results, or modify them for your own purposes, open Google's [Colab](colab.research.google.com) environment and paste the following:
 
-`!pip install knowknow-amcgail
+```python
+!pip install knowknow-amcgail
 !python -m knowknow init
-!git clone https://github.com/amcgail/citation-death`
+!git clone https://github.com/amcgail/citation-death
+```
