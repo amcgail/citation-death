@@ -2,12 +2,29 @@
 
 For full documentation on this study, visit [alecmcgail.com/knowknow/citation-death](http://alecmcgail.com/knowknow/citation-death) This study hinges on the analogy between the historical number of citations through time, and the life course of a person. In it I define death and rebirth, and produce basic demographic plots for arbitrary attributes of a citation. This study looks at web of science for sociology in particular.
 
-To reproduce these results, or modify them for your own purposes, 
-1. Open Google's [Colab](colab.research.google.com) environment
+To reproduce these results, or modify them for your own purposes, follow one of the following instructions...
 
-2. In a cell of a Colab notebook, run the following code:
+# Google's Colaboratory (Cloud)
+
+You can run these algorithms completely free through your browser, thanks to Google.
+
+1. Clone this repo into your own GitHub account. 
+2. Open Google's [Colab](colab.research.google.com) environment.
+3. From Colab's File menu, choose "Open," and open one of the notebooks in this repository from GitHub. The first cell should automatically install `knowknow` for you. If it doesn't, run `!pip install knowknow-amcgail` in the Colab notebook.
+
+# Jupyter notebook (Locally)
+
+1. Use [GitHub desktop](https://desktop.github.com/) to clone this repository and download it to your own desktop or laptop. 
+2. Install Python 3 and `pip install knowknow-amcgail`
+3. In the "citation-death" folder, execute `jupyter lab`.
+4. Explore the .ipynb files to see how the analyses were run, and run yourself.
+5. Google if you get stuck :) or DM me ([@someKindOfAlec](https://twitter.com/SomeKindOfAlec))
+
+<!--
+In a cell of a Colab notebook, run the following code:
 ```python
 !pip install knowknow-amcgail
 !python -m knowknow init
 !git clone https://github.com/amcgail/citation-death
 ```
+-->
