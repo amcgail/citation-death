@@ -1,3 +1,5 @@
 **/.ipynb_checkpoints/*
 **/*.ini
 **/*.png
+figures/**/*
+tables/**/*
